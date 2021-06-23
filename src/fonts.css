@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SF-Pro-Display';
+    src: local('SF-Pro-Display'), url(./fonts/SF-Pro-Display-Black.otf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  * {
+    font-family: 'SF-Pro-Display';
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
